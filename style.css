@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+body {
+  font-family: "Roboto";
+}
+.calculator {
+  margin: 0px auto;
+  width: 350px;
+  min-height: 500px;
+  background-color: #000;
+  color: #fff;
+}
+.calculatot__output {
+  background-color: #1c1d1f;
+  height: 250px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px 26px;
+}
+
+.calculator__output__accumulator {
+  color: #898b8d;
+  font-size: 24px;
+  margin-bottom: 20px;
+  height: 29px;
+}
+
+.calculator__output__total {
+  font-size: 54px;
+  height: 65px;
+}
+.calculator__input {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.calculator__input__btn {
+  font-size: 24px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+  color: #9a9a9a;
+}
+
+.calculator__input__btn:active {
+  background-color: #898b8d !important;
+}
+.calculator__input__btn:nth-child(4n) {
+  background-color: #191919;
+}
+.calculator__input__btn:nth-last-child(1) {
+  background-color: #c41442;
+}
